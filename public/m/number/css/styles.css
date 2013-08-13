@@ -1,0 +1,20 @@
+#message {
+    line-height: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+.loading {
+    height: 50px;
+    background: url(/i/loading_circle_gray.gif) no-repeat;
+}
+
+#numbers .list p {
+    font-size: 12px;
+    margin: 0;
+}
+
+#number_btn.loading {
+    height: auto;
+    background: url(/i/loading_circle_gray.gif) center -10px no-repeat;
+}

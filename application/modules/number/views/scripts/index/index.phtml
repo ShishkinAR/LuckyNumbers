@@ -1,0 +1,19 @@
+<div class="view-content">
+	<div>
+		<label for="test_number">Введите целое положительное четное число (длину номера билета):</label>
+	</div>
+	<div>
+		<input type="text" maxlength="3" id="test_number" name="test_number" />
+	</div>
+	<div id="message"></div>
+	<div>
+		<button id="number_btn" disabled="disabled">Просмотреть числа</button>
+	</div>
+	<div id="numbers">
+		<div class="list"></div>
+	</div>
+    <div class="list_loader"></div>
+    <div class="navigation">
+        <a href="/number/api/list?page=2"></a>
+    </div>
+</div>

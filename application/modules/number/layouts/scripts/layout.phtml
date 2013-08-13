@@ -1,0 +1,25 @@
+<?php echo $this->doctype() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<?php echo $this->headMeta()."\n" ?>
+	<?php echo $this->headTitle()."\n" ?>
+	<?php echo $this->headLink()->appendStylesheet('/css/global.css') ?>
+	<?php echo $this->headLink()->appendStylesheet('/m/number/css/styles.css') ?>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/jquery.infinitescroll.js"></script>
+    <script type="text/javascript" src="/m/number/js/index.js"></script>
+</head>
+<body>
+<div id="header">
+    <div id="header-logo">
+        <b>Numbers Application</b>
+    </div>
+    <div id="header-navigation">
+        <a href="<?php echo $this->url(array('controller' => 'index'), 'default', true) ?>">Назад</a>
+    </div>
+</div>
+
+<?php echo $this->layout()->content ?>
+
+</body>
+</html>
